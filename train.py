@@ -57,3 +57,7 @@ class ChatDataset(Dataset):
     
     def __len__(self):
         return self.n_samples
+    
+dataset = ChatDataset()
+train_loader = DataLoader(dataset=dataset, batch_size=batch_size)
+
