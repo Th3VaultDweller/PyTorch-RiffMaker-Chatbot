@@ -1,0 +1,26 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "What's up",
+                "Hello",
+                "Yo",
+                "Is anyone there?",
+                "Howdy",
+                "How's it going",
+                "Hi there",
+                "Good day"
+            ],
+            "responses": [
+                "Hello there!",
+                "Howdy, partner!",
+                "*sick guitar solo*",
+                "Hello, what can I do for you?",
+                "Hi there, how can I help you?"
+            ]
+        }
+    ]
+}
