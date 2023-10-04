@@ -21,3 +21,9 @@ a = "I want to learn a new bass riff"
 print(a)
 a = tokenize(a)
 print(a)
+
+# Testing the stem function
+a = "I want to learn a new bass riff"
+print(a)
+a = stem(a)
+print(a)
