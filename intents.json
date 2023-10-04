@@ -40,6 +40,32 @@
                 "Have a nice day",
                 "See you, thanks for using the app"
             ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke",
+                "Do you know any jokes?",
+                "Tell me something funny"
+            ],
+            "responses": [
+                "Why was the guitar teacher arrested? For fingering A minor.",
+                "Why couldn’t the fisherman play his guitar? Because he lost his tuna.",
+                "Why can’t Woody play his guitar? He doesn’t know where his Pixar.",
+                "What do you call a female police officer who plays the guitar? SHE RIFF.",
+                "Why was the guitarist late for work? He got caught in a jam.",
+                "I’m so sick of people thinking they can just waltz into my room when I’m listening to music in 4/4.",
+                "What’s the difference between a guitar & a ukulele? It only takes you half as long to burn a ukulele.",
+                "How do you get a million dollars? Start with 2 million and try to make a living playing the guitar.",
+                "What do you call a guitar player with half a brain? Gifted.",
+                "Do you know what’s the difference between a guitarist and a sofa? The sofa can support a family.",
+                "What do you call a successful guitarist? A guy whose wife has 2 jobs.",
+                "Why don’t bass players like dating guitar players? Too much treble.",
+                "Why can’t bass players get through a door? He either can’t find the key, or he doesn’t know when to come in!",
+                "Why did Darth Vader search the guitar shop? To find the hidden rebel bass.",
+                "What is Beethoven doing now? De-composing.",
+                "My girlfriend asked if I could play Wonderwall on the guitar. I said “maybe”."
+            ]
         }
     ]
 }
