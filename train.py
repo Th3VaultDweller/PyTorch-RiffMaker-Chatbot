@@ -1,5 +1,7 @@
 import json
+
 import numpy as np
+
 from nltk_utils import bag_of_words, stem, tokenize
 
 with open("intents.json", "r") as f:
@@ -36,8 +38,7 @@ for (pattern_sentence, tag) in xy:
     x_train.append(bag)
 
     label = tags.index(tag)
-    y_train.append(label) #CrossEntropyLoss
+    y_train.append(label)  # CrossEntropyLoss
 
-x_train=np.array(x_train)
-y_train=np.array(y_train)
-
+x_train = np.array(x_train)
+y_train = np.array(y_train)
