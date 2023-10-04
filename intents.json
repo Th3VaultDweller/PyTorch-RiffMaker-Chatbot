@@ -21,6 +21,25 @@
                 "Hello, what can I do for you?",
                 "Hi there, how can I help you?"
             ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Bye",
+                "See ya",
+                "See you later",
+                "Thank you and goodbye",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "*sick guitar solo*",
+                "Come back soon",
+                "Come back any time",
+                "Stay safe, neither of us want to see you go hollow",
+                "Have a nice day",
+                "See you, thanks for using the app"
+            ]
         }
     ]
 }
