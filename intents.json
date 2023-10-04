@@ -23,6 +23,20 @@
             ]
         },
         {
+            "tag": "guitar riff",
+            "patterns": [
+                "I want to learn something new",
+                "Do you have any sick guitar riffs that I could learn?",
+                "I want to learn a new guitar riff",
+                "Teach me a guitar riff"
+            ],
+            "responses": [
+                "Check this out. 'Sunshine of Your Love' by Cream: D|--12--12--10--12--7-6-5-0-3--0---|",
+                "I've got you. 'Running Down A Dream' by Tom Petty: E|-0-7-0-6-0-5-0-3-0---|",
+                "Here's the absolute banger. 'Seven Nation Army' by The White Stripes: A|--7---7-10--7--5--3--2----|"
+            ]
+        },
+        {
             "tag": "goodbye",
             "patterns": [
                 "Goodbye",
