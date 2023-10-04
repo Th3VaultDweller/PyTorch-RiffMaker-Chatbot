@@ -16,14 +16,14 @@ def stem(word):
 def bag_of_words(tokenized_sentence, all_words):
     pass
 
-# Testing the tokenize function
-a = "I want to learn a new bass riff"
-print(a)
-a = tokenize(a)
-print(a)
+# # Testing the tokenize function
+# a = "I want to learn a new bass riff"
+# print(a)
+# a = tokenize(a)
+# print(a)
 
-# Testing the stem function
-a = "I want to learn a new bass riff"
-print(a)
-a = stem(a)
-print(a)
+# # Testing the stem function
+# a = "I want to learn a new bass riff"
+# print(a)
+# a = stem(a)
+# print(a)
