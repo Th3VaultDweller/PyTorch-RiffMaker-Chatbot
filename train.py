@@ -26,13 +26,13 @@ for intent in intents["intents"]:
 
 ignore_words = ["?", "!", "*", "'", ".", ",", "-"]
 all_words = [stem(w) for w in all_words if w not in ignore_words]  # stemming
-print(all_words)
+# print(all_words)
 
-print(f"\n")
+# print(f"\n")
 
 all_words = sorted(set(all_words))  # sorted function will return a list
 tags = sorted(set(tags))
-print(tags)
+# print(tags)
 
 # training data
 x_train = []
@@ -66,8 +66,8 @@ batch_size = 8
 hidden_size = 8
 output_size = len(tags)
 input_size = len(x_train[0])
-print(input_size, len(all_words))
-print(output_size, tags)
+# print(input_size, len(all_words))
+# print(output_size, tags)
 
 dataset = ChatDataset()
 train_loader = DataLoader(
