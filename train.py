@@ -1,3 +1,8 @@
+if __name__ == "__main__":
+    import multiprocessing
+
+    multiprocessing.freeze_support()
+
 import json
 
 import numpy as np
@@ -26,18 +31,15 @@ for intent in intents["intents"]:
 
 ignore_words = ["?", "!", "*", "'", ".", ",", "-"]
 all_words = [stem(w) for w in all_words if w not in ignore_words]  # stemming
-# print(all_words)
-
-# print(f"\n")
 
 all_words = sorted(set(all_words))  # sorted function will return a list
 tags = sorted(set(tags))
-# print(tags)
+
 
 # training data
 x_train = []
 y_train = []
-for pattern_sentence, tag in xy:
+for (pattern_sentence, tag) in xy:
     bag = bag_of_words(pattern_sentence, all_words)
     x_train.append(bag)
 
@@ -68,8 +70,6 @@ output_size = len(tags)
 input_size = len(x_train[0])
 learning_rate = 0.001
 num_epochs = 1000
-# print(input_size, len(all_words))
-# print(output_size, tags)
 
 dataset = ChatDataset()
 train_loader = DataLoader(
@@ -84,7 +84,7 @@ criterion = nn.CrossEntropyLoss
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 for epoch in range(num_epochs):
-    for words, labels in train_loader:
+    for (words, labels) in train_loader:
         words = words.to(device)
         labels = labels.to(device)
 
